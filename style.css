@@ -1,0 +1,65 @@
+.flex-container{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: maroon;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: row;
+}
+
+/*NAVIGATION BAR*/
+
+#name{
+    margin-left: 10px;
+}
+
+navbar ul {
+    list-style-type: none;
+    /*check later when with contents already*/
+    /*position: fixed; */ 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+}
+
+.nav-link{
+    display: inline;
+    float: left;
+}
+
+.nav-link a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*FOOTER*/
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.contact-list ul li{
+    display: block;
+}
+
