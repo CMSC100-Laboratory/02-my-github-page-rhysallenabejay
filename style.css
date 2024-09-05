@@ -1,3 +1,169 @@
+/* Import font from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styles */
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+/*Just for checking div sizes*/
+/*div{
+    border-style: solid;
+    border-width: 2px;
+    border-color: maroon;
+    clear: both;
+}*/
+
+/* Navigation Bar */
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #EAEBED;
+}
+
+#name{
+    margin-left: 10px;
+    color: #006989;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EAEBED;
+    display: flex;
+}
+
+.nav-item{
+    display: inline;
+    float: left;
+}
+
+.nav-item a{
+    display: block;
+    color: #006989;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    background-color: #006989;
+    color: #EAEBED;
+}
+
+/* Featured Photo and Introduction */
+.featured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #EAEBED;
+}
+
+/* Previous Projects*/
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 0;
+    padding: 2%;
+    width: auto;
+    gap: 10px;
+    background-color: #EAEBED;  
+}
+
+.proj-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #006989;
+}
+
+.proj-item p{
+    color: white;
+}
+
+.proj-item h2{
+    color: white;
+}
+
+/* Skills and Autobiography */
+
+.skillbio{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+    padding: 10px;
+    width: auto;
+    gap: 10px;
+    background-color: #EAEBED;  
+}
+
+.skillbio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #006989;
+    height: 100%;
+}
+
+.skillbio-item p{
+    color: white;
+}
+
+.skillbio-item h2{
+    color: white;
+}
+
+.skillbio-item li{
+    color: white;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #EAEBED;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEBED;
+}
+
+.footer ul li{
+    display: block;
+}
+
+
+
+/*Old style for reference*/
 .flex-container{
     display: flex;
     border-style: solid;
@@ -9,40 +175,6 @@
     flex-direction: row;
 }
 
-/*NAVIGATION BAR*/
-
-#name{
-    margin-left: 10px;
-}
-
-navbar ul {
-    list-style-type: none;
-    /*check later when with contents already*/
-    /*position: fixed; */ 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    display: flex;
-}
-
-.nav-link{
-    display: inline;
-    float: left;
-}
-
-.nav-link a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav-link a:hover{
-    background-color: black;
-    color: white;
-}
 
 /*FOOTER*/
 #contact{
@@ -52,14 +184,5 @@ navbar ul {
     align-items: center;
 }
 
-.contact-list ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
 
-.contact-list ul li{
-    display: block;
-}
 
