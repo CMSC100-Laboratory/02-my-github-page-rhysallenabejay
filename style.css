@@ -7,16 +7,9 @@ body{
     font-optical-sizing: auto;
     font-weight: 350;
     font-style: normal;
-    background-color: #EAEBED;
+    background-color: #EBF5EE;
+    color: #283044;
 }
-
-/*Just for checking div sizes*/
-/*div{
-    border-style: solid;
-    border-width: 2px;
-    border-color: maroon;
-    clear: both;
-}*/
 
 div p{
     text-align: justify;
@@ -38,19 +31,17 @@ h1{
     padding: 0;
     width: auto;
     height: auto;
-    background-color: #EAEBED;
 }
 
 #name{
     margin-left: 10px;
-    color: #006989;
+    color: #283044;
 }
 
 .navigation ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #EAEBED;
     display: flex;
 }
 
@@ -61,15 +52,15 @@ h1{
 
 .nav-item a{
     display: block;
-    color: #006989;
+    color: #283044;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .nav-item a:hover{
-    background-color: #006989;
-    color: #EAEBED;
+    background-color: #283044;
+    color: #EBF5EE;
 }
 
 .header-logo {
@@ -93,7 +84,6 @@ h1{
     margin: 0;
     padding: 0;
     width: auto;
-    background-color: #EAEBED;
 }
 
 .intro-text{
@@ -101,6 +91,7 @@ h1{
     margin: 0;
     width: 60%;
     text-align: center;
+    color: #283044;
 }
 
 .featured-photo img{
@@ -119,7 +110,6 @@ h1{
     height: auto;
     gap: 10px;
     padding: 1%;
-    background-color: #EAEBED;  
 }
 
 .proj-item{
@@ -131,30 +121,29 @@ h1{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    color: #EBF5EE;
 }
 
 .proj-item:nth-child(1){
-    background-color: #006989;
+    background-color: #78A1BB;
 }
 
 .proj-item:nth-child(2){
-    background-color: #006989;
+    background-color: #BFA89E;
 }
 
 .proj-item:nth-child(3){
-    background-color: #006989;
+    background-color: #8B786D;
 }
 
 .proj-item:nth-child(4){
-    background-color: #006989;
+    background-color:  #283044;
 }
 
-.proj-item p{
-    color: white;
-}
-
-.proj-item h2{
-    color: white;
+.proj-item:hover{
+    background-color: #EBF5EE;
+    color: #283044;
+    box-shadow: 0 8px 12px 0 #283044;
 }
 
 /* Skills and Autobiography */
@@ -168,7 +157,6 @@ h1{
     height: auto;
     gap: 10px;
     padding: 1%;
-    background-color: #EAEBED;  
 }
 
 .skillbio-item{
@@ -182,20 +170,9 @@ h1{
     padding: 10px;
     border-style: solid;
     border-width: 3px;
-    border-color:  #006989;
+    border-color:  #8B786D;
     border-radius: 20px;
-}
-
-.skillbio-item p{
-    color: black;
-}
-
-.skillbio-item h2{
-    color: black;
-}
-
-.skillbio-item li{
-    color: black;
+    color: #283044;
 }
 
 /* Footer */
@@ -206,19 +183,24 @@ h1{
     justify-content: center;
     flex-direction: row;
     margin: 0;
+    padding: 10px;
     width: auto;
-    background-color: #EAEBED;
+    color: #EBF5EE;
+    background-color: #283044;
 }
 
 .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #EAEBED;
 }
 
 .footer ul li{
     display: block;
+}
+
+.footer ul li a{
+    color: #EBF5EE;
 }
 
 .contact-list{
