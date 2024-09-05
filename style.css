@@ -7,6 +7,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 350;
     font-style: normal;
+    background-color: #EAEBED;
 }
 
 /*Just for checking div sizes*/
@@ -16,6 +17,15 @@ body{
     border-color: maroon;
     clear: both;
 }*/
+
+div p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1{
+    text-align: center;
+}
 
 /* Navigation Bar */
 
@@ -27,6 +37,7 @@ body{
     margin: 0;
     padding: 0;
     width: auto;
+    height: auto;
     background-color: #EAEBED;
 }
 
@@ -39,7 +50,6 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #EAEBED;
     display: flex;
 }
@@ -62,6 +72,18 @@ body{
     color: #EAEBED;
 }
 
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
 /* Featured Photo and Introduction */
 .featured{
     display: flex;
@@ -74,15 +96,29 @@ body{
     background-color: #EAEBED;
 }
 
+.intro-text{
+    align-items: center;
+    margin: 0;
+    width: 60%;
+    text-align: center;
+}
+
+.featured-photo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
 /* Previous Projects*/
 .projects{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     margin: 0;
-    padding: 2%;
     width: auto;
+    height: auto;
     gap: 10px;
+    padding: 1%;
     background-color: #EAEBED;  
 }
 
@@ -92,6 +128,24 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.proj-item:nth-child(1){
+    background-color: #006989;
+}
+
+.proj-item:nth-child(2){
+    background-color: #006989;
+}
+
+.proj-item:nth-child(3){
+    background-color: #006989;
+}
+
+.proj-item:nth-child(4){
     background-color: #006989;
 }
 
@@ -111,7 +165,9 @@ body{
     margin: 0;
     padding: 10px;
     width: auto;
+    height: auto;
     gap: 10px;
+    padding: 1%;
     background-color: #EAEBED;  
 }
 
@@ -121,31 +177,35 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #006989;
-    height: 100%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  #006989;
+    border-radius: 20px;
 }
 
 .skillbio-item p{
-    color: white;
+    color: black;
 }
 
 .skillbio-item h2{
-    color: white;
+    color: black;
 }
 
 .skillbio-item li{
-    color: white;
+    color: black;
 }
 
 /* Footer */
 
 .footer{
     display: flex;
-    align-items: space-between;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
     margin: 0;
-    padding: 0;
     width: auto;
     background-color: #EAEBED;
 }
@@ -161,28 +221,18 @@ body{
     display: block;
 }
 
-
-
-/*Old style for reference*/
-.flex-container{
-    display: flex;
-    border-style: solid;
-    border-width: 2px;
-    border-color: maroon;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    flex-direction: row;
-}
-
-
-/*FOOTER*/
-#contact{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.contact-list{
     align-items: center;
 }
 
+.footer-logo {
+    margin-right: 50px;
+}
+
+.footer-logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
 
 
